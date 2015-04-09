@@ -18,7 +18,7 @@ abstract class BaseTemplate {
     }
 
     protected function get_header($title) {
-        $user = 'bswhitf1';
+        $user = 'cjspiece/ambergroup';
 
         if (!isset($_SESSION['persons_id'])) {
             return "<!DOCTYPE html>
