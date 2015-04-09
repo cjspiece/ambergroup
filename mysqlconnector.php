@@ -1,15 +1,10 @@
 <?php
 define("DB_SERVER", "localhost");
-define("DB_NAME", "CIS355bswhitf1");
-define("DB_USER", "CIS355bswhitf1");
-define("DB_PASSWORD", "scarydoll");
+define("DB_NAME", "CIS355cjspiece");
+define("DB_USER", "CIS355cjspiece");
+define("DB_PASSWORD", "risingsun");
 
-/**
- * Created by IntelliJ IDEA.
- * User: brad
- * Date: 2/4/15
- * Time: 9:52 PM
- */
+
 class DBConnector {
 
     public static function get_db_connection() {
